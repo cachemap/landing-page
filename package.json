@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "author": "Dillon Notz",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "posthtml-include": "^1.7.2"
+  }
+}
