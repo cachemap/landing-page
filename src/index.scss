@@ -11,7 +11,8 @@ body {
 }
 
 nav {
-  height: 80px;
+  height: 8rem;
+  padding: 0px 4rem;
   background-color: $nav-background-color;
 
   .nav-container {
@@ -27,11 +28,15 @@ nav {
     .links {
       display: flex;
       align-items: center;
+      height: 100%;
+
+      a {
+        color: black;
+      }
     }
 
     ul {
-      padding: unset;
-      margin: unset;
+      margin: 0px;
 
       display: flex;
       align-items: center;
@@ -42,9 +47,11 @@ nav {
       }
 
       li {
+        margin: 0;
         min-width: 100px;
         list-style-type: none;
         text-align: center;
+        height: 100%;
 
         a {
           text-decoration: none;
