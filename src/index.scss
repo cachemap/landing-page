@@ -13,7 +13,6 @@ body {
 nav {
   height: 80px;
   background-color: $nav-background-color;
-  margin-bottom: 2rem;
 
   .nav-container {
     height: 100%;
@@ -21,8 +20,21 @@ nav {
     align-items: center;
     justify-content: space-between;
 
-    ul {
+    .company-name {
+      font-size: 4rem;
+    }
+
+    .links {
       display: flex;
+      align-items: center;
+    }
+
+    ul {
+      padding: unset;
+      margin: unset;
+
+      display: flex;
+      align-items: center;
       justify-content: space-evenly;
 
       li:not(:last-child) {
@@ -43,8 +55,13 @@ nav {
 }
 
 main.top-banner {
+  background-color: white;
   height: 50rem;
-  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary-btn {
